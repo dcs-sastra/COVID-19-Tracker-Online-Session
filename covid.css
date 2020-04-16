@@ -1,0 +1,21 @@
+.jumbotron
+{
+    height:100vh;
+    padding-top:25px;
+    width:100%
+}
+
+
+th
+{
+    color: gold !important
+}
+
+
+@media only screen and (max-width: 480px) {
+    /* horizontal scrollbar for tables if mobile screen */
+    table {
+        overflow-x: auto;
+        display: block;
+    }
+}
